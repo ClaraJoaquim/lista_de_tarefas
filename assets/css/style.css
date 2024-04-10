@@ -14,6 +14,14 @@
     outline: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 1.3em;
+    line-height: 1.5;
+}
 
 h1 {
     text-align: center;
