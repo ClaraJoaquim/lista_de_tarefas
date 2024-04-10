@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root{
+    --primary-color:#bb85ee;
+    --primary-color-dark: #7610d4;
+    --second-color-dark: #1d0038;
+    --primary-color-button: #f0dfff;
+    --second-color-button: #e6c2ff;
+    --primary-font: 'Pixelify Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.paragrafo {
+    display: flex;
+    gap: 20px
+}
+
+input {
+    font-family: var(--primary-font);
+    border: 2px dotted var(--second-color-dark);
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+button {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color-button);
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: var(--second-color-button);
+    color: var(--second-color-dark);
+}
+
+button:active {
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-button);
+}
